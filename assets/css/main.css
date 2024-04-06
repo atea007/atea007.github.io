@@ -66,6 +66,11 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+#weekInfo {
+	font-size: 24px; /* Increase the font size to 24 pixels */
+	font-weight: bold;
+	padding: 5px;
+  }
  /* Basic */
 
 	@-ms-viewport {
