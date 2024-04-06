@@ -31,9 +31,18 @@ button.active{
 .card{
 	flex-grow: 1;
 	flex-basis: 300px;
+	width: 180px;
 	background-color: #fff;
 	padding: 3px;
-	border-radius: 8px;
+	border-radius: 8px;  
+}
+
+@media(max-width:700px){
+	.card{
+		margin-left: 5px;
+		margin-right: 10px;
+	}
+
 }
 .card.hide{
 	display:none;
