@@ -107,6 +107,7 @@
 .location{
 	position: relative;
 	margin: auto; 
+	width: 80%;
 
 }
 .location iframe{
